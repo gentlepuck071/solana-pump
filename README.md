@@ -28,6 +28,39 @@ This tool ensures rapid purchasing and incorporates auto-selling capabilities, a
 3. Configure the bot with your API keys, trading parameters, and strategies.
 4. Run the bot using `npm start` or `yarn start`.
 
+# Configuration for Solana Pump Bot
+```
+# API Keys
+api_keys:
+  solana_node: "your_solana_node_api_key"
+  market_data: "your_market_data_api_key"
+
+# Trading Parameters
+trading_parameters:
+  token_address: "0xabcdef1234567890"
+  wallet_address: "your_wallet_address"
+  private_key: "your_private_key"
+  trading_pairs:
+    - "SOL/USDT"
+    - "SRM/USDC"
+  order_size: 100  # Quantity or value of each order
+  trading_fees: 0.1  # Percentage of trading fees
+
+# Strategies
+strategies:
+  - name: "Pump and Dump"
+    description: "Rapidly buy and sell to inflate token price."
+  - name: "Market Making"
+    description: "Provide liquidity with bid-ask spread."
+  - name: "Arbitrage"
+    description: "Exploit price differences across exchanges."
+  - name: "Technical Analysis"
+    description: "Use technical indicators for trading signals."
+  - name: "Sentiment Analysis"
+    description: "Analyze market sentiment for decision-making."
+```
+This YAML configuration file organizes the required API keys, trading parameters, and strategies in a structured manner.
+
 **Dependencies**
 - .NET Framework 4.8
 - SolNET SDK
