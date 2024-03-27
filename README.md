@@ -1,5 +1,3 @@
-# solana-pump-bot
-
 ![GitHub stars](https://img.shields.io/github/stars/kenshinfrog/solana-pump-bot?style=flat-square)
 ![GitHub forks](https://img.shields.io/github/forks/kenshinfrog/solana-pump-bot?style=flat-square)
 
